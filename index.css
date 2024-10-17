@@ -1,0 +1,28 @@
+.ojos {
+    margin: auto;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 7rem;
+    text-align: center;
+    color: white;
+}
+
+ .oo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(102, 102, 194);
+}
+
+.aa {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: blueviolet;
+}
+
+.uu {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: brown;
+}
