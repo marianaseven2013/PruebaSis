@@ -1,8 +1,9 @@
-
+body {
+    background-image: url(https://i.pinimg.com/736x/7c/18/2c/7c182cb1040b7c8a99d1107341da6975.jpg);
+}
 
 .ojos {
     margin: auto;
-    background-color: azure;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
@@ -13,6 +14,8 @@
 }
 
  .oo {
+    border: 3px solid white;
+
     grid-column: 1/2;
     grid-row: 1/2;
     background-color: rgb(217, 217, 226);
@@ -31,12 +34,13 @@ button {
 
 button:hover {
     transition: 2s;
-    background-color: white;
+    background-color: rgb(208, 192, 233);
     color: black;
     border-radius: 10px;
 }
 
 .aa {
+    border: 3px solid white;
     grid-column: 1/2;
     grid-row: 2/3;
     background-color: rgb(166, 161, 170);
@@ -44,7 +48,9 @@ button:hover {
 
 
 .uu {
+    border: 3px solid white;
+
     grid-column: 1/2;
     grid-row: 3/4;
-    background-color: brown;
+    background-color: rgb(99, 91, 91);
 }
