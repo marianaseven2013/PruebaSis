@@ -1,10 +1,13 @@
+
+
 .ojos {
     margin: auto;
     background-color: azure;
     display: grid;
+    gap: 1rem;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    width: 7rem;
+    width: 10rem;
     text-align: center;
     color: white;
 }
@@ -12,14 +15,33 @@
  .oo {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: rgb(102, 102, 194);
+    background-color: rgb(217, 217, 226);
+    height: 7rem;
+}
+
+button {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 2.3rem;
+    width: 4rem;
+    height: 3rem;
+    background-color: black;
+    color: wheat;
+}
+
+button:hover {
+    transition: 2s;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
 
 .aa {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: blueviolet;
+    background-color: rgb(166, 161, 170);
 }
+
 
 .uu {
     grid-column: 1/2;
